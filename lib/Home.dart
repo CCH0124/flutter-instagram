@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'dart:math' as math;
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -29,7 +29,10 @@ class Home extends StatelessWidget {
             new Container(
               child: new Padding(
                 padding: EdgeInsets.only(right: 12),
-                child: Icon(Icons.send),
+                child: Transform.rotate(
+                  angle: 11*math.pi/6,
+                  child: Icon(Icons.send),
+                ),
               ),
             ),
           ],
