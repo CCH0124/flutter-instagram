@@ -46,6 +46,15 @@ flutter:
   #  - images/a_dot_ham.jpeg
   assets:
     - images/Instagram_logo.svg
+    - images/gai.jpg
+    - images/hinata.jpg
+    - images/itachi.jpg
+    - images/jiraiya.jpg
+    - images/kakashi.jpg
+    - images/kyubi.jpg
+    - images/naruto.jpg
+    - images/sakura.jpg
+    - images/sasuke.jpg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 

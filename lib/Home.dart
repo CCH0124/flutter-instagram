@@ -1,11 +1,19 @@
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
+
+import 'package:instagram/avatar.dart';
+import 'package:instagram/user_data.dart';
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: topBar(),
-      body: new Text("ASD"),
+      body: new Column(
+        children: <Widget>[
+          new StoriesBarWidget(),
+          new Divider(),
+        ],
+      ),
       bottomNavigationBar: bottomBar(),
     );
   }
@@ -74,4 +82,16 @@ List<BottomBarButton> bottomBarButtonItems = [
   new BottomBarButton(icon: Icon(Icons.add), onPress: null),
   new BottomBarButton(icon: Icon(Icons.favorite_border), onPress: null),
   new BottomBarButton(icon: Icon(Icons.account_box), onPress: null),
+];
+
+List<User> users = [
+  itachi,
+  kakashi,
+  naruto,
+  sasuke,
+  sakura,
+  gai,
+  hinata,
+  jiraiya,
+  kyubi,
 ];
